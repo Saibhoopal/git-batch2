@@ -1,0 +1,3 @@
+Options in UNIX commands commonly take this form. You add them right after the command name, and they change how the command behaves. You can often combine multiple options, too.
+
+You can find which options a command supports by typing man <commandname>. Try now with man mkdir for example (press the q key to esc the man page). Man pages are the amazing built-in help for UNIX

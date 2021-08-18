@@ -1,0 +1,3 @@
+[submodule "sai/sai/git-batch2"]
+	path = sai/sai/git-batch2
+	url = https://github.com/Saibhoopal/git-batch2.git
