@@ -1,0 +1,148 @@
+sudo su - 
+hostname 
+
+hostname -I 
+ifconfig 
+
+
+cd /
+ls
+
+touch f1 f2 
+rm -rf f1 f2 
+mkdir dir1 dir2 
+rm -rf dir1 dir2 
+
+ls
+ll or ls -lrth 
+ls -la 
+cd dir1 
+cd ../../../
+pwd
+cat file 
+
+
+cp src dest
+mv src dest
+mv oldName NewName
+
+===== nested directoruy
+mkdir -p d1/d2/d3/d4/kiran 
+
+
+id 
+
+whoami 
+
+who am i 
+
+who 
+
+uname
+
+uname -a 
+uptime 
+
+/etc/passwd
+
+useradd UName
+passwd UName
+su - UName
+
+hostname
+    2  hostname -I
+    3  ifconfig
+    4  cd /
+    5  ls
+    6  ll
+    7  ls -lrth
+    8  ls
+    9  cd opt/
+   10  ls
+   11  ll
+   12  mkdir linuxpractice
+   13  ll
+   14  touch f1 f2
+   15  ll
+   16  cd linuxpractice/
+   17  ls
+   18  ll
+   19  touch l1 l2 l3
+   20  ll
+   21  pwd
+   22  ll
+   23  rm l1
+   24  ll
+   25  r -rf l2
+   26  rm -rf l2
+   27  ll
+   28  pwd
+   29  cd ../
+   30  ls
+   31  pwd
+   32  rm -rf linuxpractice
+   33  ll
+   34  mkdir linuxpractice
+   35  cd linuxpractice/
+   36  ls
+   37  ll
+   38  touch l1 l2
+   39  ll
+   40  cd ../
+   41  ll
+   42  tree
+   43  yum install tree
+   44  tree
+   45  cd ..
+   46  tree
+   47  ls
+   48  cd opt/
+   49  ll
+   50  tree
+   51  cp f1 linuxpractice/f1
+   52  tree
+   53  mv f2 linuxpractice/f2
+   54  tree
+   55  cd linuxpractice/
+   56  ll
+   57  mv f1 file1
+   58  ll
+   59  mkdir d1
+   60  ll
+   61  cd d1
+   62  ll
+   63  mkdir d2
+   64  ll
+   65  mkdir -p dir3/dir4/dir5/dir6
+   66  ls
+   67  ll
+   68  tree
+   69  cd ../
+   70  ll
+   71  tree
+   72  touch kiran
+   73  free
+   74  tree
+   75  cp kiran d1/dir3/dir4/dir5/dir6/kiran
+   76  tree
+   77  id
+   78  exit
+   79  whoami
+   80  who am i
+   81  who
+   82  uname
+   83  uname -a
+   84  uptime
+   85  top
+   86  lscpu
+   87  free -g
+   88  free
+   89  free -g
+   90  free
+   91  top
+   92  cat /etc/passwd
+   93  useradd kiran
+   94  passwd kiran
+   95  cat /etc/passwd
+   96  su - kiran
+   97  history
